@@ -1,6 +1,7 @@
 # Español
 
-Este es un repositorio para crear rápidamente un entorno de trabajo con Moodle (Apache2, PHP-FPM con XDEBUG y Postgres) usando contenedores para cada uno sus principales componentes. El entorno de trabajo se crea y gestiona con Docker Compose. Basado en el repositorio de [jobcespedes](https://github.com/jobcespedes/docker-compose-moodle#espa%C3%B1ol)
+Este es un repositorio para crear rápidamente un entorno de trabajo con Moodle (Apache2, PHP-FPM con XDEBUG y Postgres) usando contenedores para cada uno sus principales componentes. El entorno de trabajo se crea y gestiona con Docker Compose.
+Basado en el repositorio de [jobcespedes](https://github.com/jobcespedes/docker-compose-moodle#espa%C3%B1ol)
 
 ## Pasos rápidos para crear proyecto:
 1. Tener Docker. Ver como instalar [Docker](https://docs.docker.com/install/)
@@ -9,7 +10,7 @@ Este es un repositorio para crear rápidamente un entorno de trabajo con Moodle 
 4. Copiar repositorio de código de Moodle: ```git clone --branch MOODLE_35_STABLE --depth 1 git://github.com/moodle/moodle html```
 5. Desplegar con: ```docker-compose up -d```
 
-## Variables de ambiente
+## Variables de entorno
 La siguiente tabla contiene las variables utilizadas en el archivo [**.env**](.env) para Docker Compose. Los valores por defecto funcionan para una configuración inicial. Cámbielos de ser necesario.
 
 | Variable | Valor por defecto | Utilidad |
